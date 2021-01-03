@@ -2,7 +2,7 @@
 
 include('../index.php');
 
-$client = new FuelSAClient('5b4dd9ab47564650ae4c22a3b42a1ed81');
+$client = new FuelSAClient('YOUR-API-KEY');
 
 $result = $client->getCurrentFuelPrices();
 echo '$client->getCurrentFuelPrices()' . $result;
